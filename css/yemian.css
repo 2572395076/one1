@@ -1,0 +1,669 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 1rem;
+  list-style: none; }
+  header .tou-1 {
+    width: 1rem;
+    height: 1.05rem;
+    float: left; }
+    header .tou-1 img {
+      width: 0.87rem;
+      height: 0.71rem;
+      margin: 0.16rem; }
+  header .tou-2 {
+    width: 1.29rem;
+    height: 1rem;
+    float: left; }
+    header .tou-2 span {
+      width: 1.28rem;
+      height: 0.5rem;
+      font-size: 0.4rem;
+      color: black;
+      display: block;
+      overflow: hidden; }
+    header .tou-2 p {
+      width: 1.28rem;
+      height: 0.3rem;
+      color: silver;
+      font-size: 0.25rem;
+      display: block;
+      margin-top: -0.05rem;
+      overflow: hidden; }
+  header .tou-3 {
+    width: 1.26rem;
+    height: 1rem;
+    float: right;
+    font-size: 0.05rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center; }
+    header .tou-3 li {
+      width: 100%; }
+      header .tou-3 li img {
+        width: 0.44rem;
+        height: 0.44rem;
+        margin-top: 0.3rem; }
+      header .tou-3 li p {
+        display: block;
+        width: 0.45rem;
+        height: 0.23rem;
+        overflow: hidden;
+        margin-left: 0.08rem;
+        color: silver; }
+
+article {
+  width: 7.5rem;
+  height: 2.38rem; }
+  article div {
+    width: 7.5rem;
+    height: 2.38rem; }
+    article div img {
+      width: 7.5rem;
+      height: 2.38rem; }
+
+.nei-1 {
+  width: 7.5rem;
+  height: 4.65rem;
+  background-color: white; }
+  .nei-1 .ul-1 {
+    list-style: none;
+    width: 6.82rem;
+    height: 1.72rem;
+    margin-top: 0.36rem;
+    margin-left: 0.34rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center; }
+    .nei-1 .ul-1 li {
+      width: 100%; }
+      .nei-1 .ul-1 li img {
+        width: 1.2rem;
+        height: 1.2rem; }
+      .nei-1 .ul-1 li p {
+        font-size: 0.2rem;
+        display: block;
+        width: 0.8rem;
+        height: 0.4rem;
+        overflow: hidden;
+        margin-left: 0.45rem; }
+  .nei-1 .ul-2 {
+    list-style: none;
+    width: 6.82rem;
+    height: 1.72rem;
+    margin-top: 0.52rem;
+    margin-left: 0.34rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center; }
+    .nei-1 .ul-2 li {
+      width: 100%; }
+      .nei-1 .ul-2 li img {
+        width: 1.2rem;
+        height: 1.2rem; }
+      .nei-1 .ul-2 li p {
+        font-size: 0.2rem;
+        display: block;
+        width: 0.8rem;
+        height: 0.4rem;
+        overflow: hidden;
+        margin-left: 0.45rem; }
+
+.nei-2 {
+  width: 7.45rem;
+  height: 1.5rem;
+  background-color: white; }
+  .nei-2 span:nth-child(1) {
+    font-size: 0.5rem;
+    border-left: 10px solid slateblue;
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem;
+    padding-left: 0.32rem; }
+  .nei-2 span:nth-child(2) {
+    font-size: 0.3rem;
+    color: silver;
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem; }
+
+.nei-3 {
+  width: 7.5rem;
+  height: 4.35rem;
+  background-color: white; }
+  .nei-3 img {
+    width: 7.19rem;
+    height: 4.03rem;
+    margin-left: 0.16rem;
+    margin-bottom: 0.2rem; }
+
+.nei-4 {
+  width: 7.5rem;
+  height: 1.13rem;
+  justify-content: space-around;
+  align-items: center;
+  display: flex; }
+  .nei-4 .ul-3 {
+    list-style: none;
+    align-items: center;
+    display: flex; }
+    .nei-4 .ul-3 img {
+      width: 0.37rem;
+      height: 0.41rem; }
+    .nei-4 .ul-3 .spa1 {
+      overflow: hidden;
+      font-size: 0.31rem;
+      width: 2.13rem;
+      height: 0.36rem; }
+    .nei-4 .ul-3 .spa2 {
+      width: 1.64rem;
+      height: 0.36rem;
+      overflow: hidden;
+      font-size: 0.31rem; }
+    .nei-4 .ul-3 .spa3 {
+      width: 1.25rem;
+      height: 0.36rem;
+      overflow: hidden;
+      font-size: 0.31rem; }
+
+.nei-5 {
+  width: 7.5rem;
+  height: 0.16rem;
+  background-color: #969896; }
+
+.nei-6 {
+  width: 7.5rem;
+  height: 5.8rem;
+  background-color: white; }
+  .nei-6 .nei-6-1 {
+    width: 7.5rem;
+    height: 1.03rem; }
+    .nei-6 .nei-6-1 span:nth-child(1) {
+      font-size: 0.5rem;
+      border-left: 10px solid springgreen;
+      padding-left: 0.3rem; }
+    .nei-6 .nei-6-1 span:nth-child(2) {
+      font-size: 0.3rem;
+      color: silver; }
+  .nei-6 .nei-6-2 {
+    width: 7.5rem;
+    height: 4.08rem;
+    text-align: center; }
+    .nei-6 .nei-6-2 input:nth-child(1) {
+      width: 5.86rem;
+      height: 0.7rem;
+      margin-top: 0.2rem;
+      border-radius: 0.2rem;
+      border: 1px solid silver; }
+    .nei-6 .nei-6-2 input:nth-child(2) {
+      width: 5.86rem;
+      height: 0.7rem;
+      margin-top: 0.25rem;
+      border-radius: 0.2rem;
+      border: 1px solid silver; }
+    .nei-6 .nei-6-2 input:nth-child(3) {
+      width: 5.86rem;
+      height: 0.7rem;
+      margin-top: 0.23rem;
+      border-radius: 0.2rem;
+      border: 1px solid silver; }
+    .nei-6 .nei-6-2 button {
+      width: 5.85rem;
+      height: 0.67rem;
+      background-color: #FEB605;
+      margin-top: 0.24rem;
+      text-align: center;
+      line-height: 0.67rem;
+      border-radius: 0.2rem;
+      border: 1px solid #FEB605;
+      margin-bottom: 0.3rem; }
+
+.nei-7 {
+  width: 7.5rem;
+  height: 0.17rem;
+  background-color: silver;
+  margin-top: 0.3rem;
+  margin-top: 1.2rem; }
+
+.nei-8 {
+  width: 7.5rem;
+  height: 5rem;
+  background-color: white; }
+  .nei-8 .nei-8-1 {
+    width: 7.5rem;
+    height: 1rem;
+    font-size: 0.4rem;
+    line-height: 1rem; }
+    .nei-8 .nei-8-1 span {
+      border-left: 10px solid green;
+      padding-left: 0.3rem; }
+  .nei-8 .ul4 {
+    width: 7.5rem;
+    height: 2.82rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    list-style: none; }
+    .nei-8 .ul4 li {
+      width: 22%; }
+      .nei-8 .ul4 li img {
+        width: 1.4rem;
+        height: 1.45rem; }
+      .nei-8 .ul4 li p {
+        font-size: 0.27rem;
+        font-weight: 690; }
+      .nei-8 .ul4 li span {
+        display: block;
+        width: 1.2rem;
+        height: 0.32rem;
+        background-color: #3CC893;
+        text-align: center;
+        line-height: 0.32rem;
+        border-radius: 0.1rem;
+        margin-left: 0.2rem;
+        margin-top: 0.2rem; }
+  .nei-8 .nei-8-2 {
+    width: 7.5rem;
+    height: 1.08rem; }
+    .nei-8 .nei-8-2 div {
+      width: 3.55rem;
+      height: 0.7rem;
+      text-align: center;
+      line-height: 0.7rem;
+      font-size: 0.25rem;
+      float: left;
+      margin-left: 0.1rem;
+      border: 1px solid silver; }
+
+.nei-9 {
+  width: 7.5rem;
+  height: 12.6rem;
+  background-color: white; }
+  .nei-9 .nei-9-1 {
+    width: 7.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.28rem; }
+    .nei-9 .nei-9-1 span {
+      border-left: 10px solid seagreen;
+      padding-left: 0.2rem; }
+  .nei-9 .nei-9-2 {
+    width: 7.5rem;
+    height: 10.3rem; }
+    .nei-9 .nei-9-2 .tu1 {
+      width: 7.5rem;
+      height: 5.1rem; }
+      .nei-9 .nei-9-2 .tu1 img {
+        width: 7.14rem;
+        height: 5.1rem;
+        margin-left: 0.18rem; }
+    .nei-9 .nei-9-2 .tu2 {
+      width: 3.5rem;
+      height: 2.5rem;
+      float: left;
+      margin-left: 0.18rem; }
+      .nei-9 .nei-9-2 .tu2 img {
+        width: 3.5rem;
+        height: 2.5rem; }
+    .nei-9 .nei-9-2 .tu3 {
+      width: 3.3rem;
+      height: 2.5rem;
+      float: left;
+      margin-left: 0.16rem; }
+      .nei-9 .nei-9-2 .tu3 img {
+        width: 3.5rem;
+        height: 2.5rem; }
+    .nei-9 .nei-9-2 .tu4 {
+      width: 3.3rem;
+      height: 2.5rem;
+      float: left;
+      margin-left: 0.16rem; }
+      .nei-9 .nei-9-2 .tu4 img {
+        width: 3.5rem;
+        height: 2.5rem; }
+    .nei-9 .nei-9-2 .tu5 {
+      width: 3.3rem;
+      height: 2.5rem;
+      float: left;
+      margin-left: 0.35rem;
+      margin-top: 0.08rem; }
+      .nei-9 .nei-9-2 .tu5 img {
+        width: 3.53rem;
+        height: 2.5rem; }
+  .nei-9 .nei-9-3 {
+    width: 7.5rem;
+    height: 1.43rem; }
+    .nei-9 .nei-9-3 .aa {
+      width: 7.14rem;
+      height: 1.43rem;
+      margin-left: 0.18rem;
+      float: left; }
+      .nei-9 .nei-9-3 .aa div {
+        width: 3.5rem;
+        height: 0.7rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.25rem;
+        float: left;
+        border: 1px solid silver; }
+
+.nei-10 {
+  width: 7.5rem;
+  height: 0.18rem;
+  background-color: slategray; }
+
+.nei-11 {
+  width: 7.5rem;
+  height: 8.3rem;
+  background-color: white; }
+  .nei-11 .nei-11-1 {
+    width: 7.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.25rem; }
+    .nei-11 .nei-11-1 span {
+      border-left: 10px solid seagreen;
+      padding-left: 0.2rem; }
+  .nei-11 .nei-11-2 {
+    width: 7.5rem;
+    height: 5.4rem; }
+    .nei-11 .nei-11-2 img {
+      width: 7.14rem;
+      height: 5.38rem;
+      margin-left: 0.18rem; }
+  .nei-11 .nei-11-3 {
+    width: 7.5rem;
+    height: 0.63rem;
+    line-height: 0.63rem;
+    margin-top: 0.2rem; }
+    .nei-11 .nei-11-3 .spa4 {
+      display: block;
+      width: 1.6rem;
+      height: 0.3rem;
+      font-size: 0.23rem;
+      overflow: hidden;
+      line-height: 0.3rem;
+      margin-left: 0.2rem;
+      float: left; }
+    .nei-11 .nei-11-3 .spa5 {
+      display: block;
+      width: 1rem;
+      height: 0.3rem;
+      line-height: 0.3rem;
+      font-size: 0.23rem;
+      margin-left: 2rem;
+      background-color: seagreen;
+      border-radius: 0.1rem;
+      text-align: center; }
+  .nei-11 .nei-11-3 {
+    width: 7.5rem;
+    height: 1.25rem; }
+    .nei-11 .nei-11-3 .bb {
+      width: 7.14rem;
+      height: 1.43rem;
+      margin-left: 0.18rem;
+      float: left; }
+      .nei-11 .nei-11-3 .bb div {
+        width: 3.5rem;
+        height: 0.7rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.25rem;
+        float: left;
+        border: 1px solid silver; }
+
+.nei-12 {
+  width: 7.5rem;
+  height: 0.17rem;
+  background-color: slategray;
+  margin-top: 0.7rem; }
+
+.nei-13 {
+  width: 7.5rem;
+  height: 8rem; }
+  .nei-13 .nei-13-1 {
+    width: 7.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.25rem; }
+    .nei-13 .nei-13-1 span {
+      border-left: 10px solid seagreen;
+      padding-left: 0.2rem; }
+  .nei-13 .nei-13-2 {
+    width: 7.5rem;
+    height: 1.83rem;
+    border-bottom: 1px solid silver; }
+    .nei-13 .nei-13-2 .cc {
+      width: 1.94rem;
+      height: 1.5rem;
+      float: left;
+      margin-left: 0.18rem;
+      margin-top: 0.2rem; }
+      .nei-13 .nei-13-2 .cc img {
+        width: 1.94rem;
+        height: 1.5rem; }
+    .nei-13 .nei-13-2 .ul-5 {
+      width: 5.2rem;
+      height: 1.83rem;
+      margin-top: 0.2rem;
+      margin-left: 0.18rem;
+      list-style: none;
+      float: left; }
+      .nei-13 .nei-13-2 .ul-5 .spa10 {
+        display: block;
+        float: left;
+        width: 4.5rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem; }
+      .nei-13 .nei-13-2 .ul-5 .spa11 {
+        display: block;
+        width: 2rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem;
+        margin-top: 0.9rem; }
+      .nei-13 .nei-13-2 .ul-5 .spa12 {
+        display: block;
+        width: 1rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 0.28rem;
+        margin-left: 3rem;
+        margin-top: -0.4rem; }
+  .nei-13 .nei-13-3 {
+    width: 7.5rem;
+    height: 1.83rem;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.3rem; }
+    .nei-13 .nei-13-3 .dd {
+      width: 1.94rem;
+      height: 1.5rem;
+      float: left;
+      margin-left: 0.18rem;
+      margin-top: 0.2rem; }
+      .nei-13 .nei-13-3 .dd img {
+        width: 1.94rem;
+        height: 1.5rem; }
+    .nei-13 .nei-13-3 .ul-6 {
+      width: 5.2rem;
+      height: 1.83rem;
+      margin-top: 0.2rem;
+      margin-left: 0.18rem;
+      list-style: none;
+      float: left; }
+      .nei-13 .nei-13-3 .ul-6 .spa20 {
+        display: block;
+        float: left;
+        width: 4.5rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem; }
+      .nei-13 .nei-13-3 .ul-6 .spa21 {
+        display: block;
+        width: 2rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem;
+        margin-top: 0.9rem; }
+      .nei-13 .nei-13-3 .ul-6 .spa22 {
+        display: block;
+        width: 1rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 0.28rem;
+        margin-left: 3rem;
+        margin-top: -0.4rem; }
+  .nei-13 .nei-13-4 {
+    width: 7.5rem;
+    height: 1.83rem;
+    padding-bottom: 0.3rem; }
+    .nei-13 .nei-13-4 .ee {
+      width: 1.94rem;
+      height: 1.5rem;
+      float: left;
+      margin-left: 0.18rem;
+      margin-top: 0.2rem; }
+      .nei-13 .nei-13-4 .ee img {
+        width: 1.94rem;
+        height: 1.5rem; }
+    .nei-13 .nei-13-4 .ul-7 {
+      width: 5.2rem;
+      height: 1.83rem;
+      margin-top: 0.2rem;
+      margin-left: 0.18rem;
+      list-style: none;
+      float: left; }
+      .nei-13 .nei-13-4 .ul-7 .spa30 {
+        display: block;
+        float: left;
+        width: 4.5rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem; }
+      .nei-13 .nei-13-4 .ul-7 .spa31 {
+        display: block;
+        width: 2rem;
+        height: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.4rem;
+        margin-top: 0.9rem; }
+      .nei-13 .nei-13-4 .ul-7 .spa32 {
+        display: block;
+        width: 1rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 0.28rem;
+        margin-left: 3rem;
+        margin-top: -0.4rem; }
+  .nei-13 .nei-13-5 {
+    width: 7.5rem;
+    height: 1.43rem;
+    margin-top: 0.2rem; }
+    .nei-13 .nei-13-5 .ff {
+      width: 7.14rem;
+      height: 1.43rem;
+      margin-left: 0.18rem;
+      float: left; }
+      .nei-13 .nei-13-5 .ff div {
+        width: 3.5rem;
+        height: 0.7rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.25rem;
+        float: left;
+        border: 1px solid silver; }
+
+.neir {
+  width: 7.4rem;
+  margin: 0.36rem auto;
+  padding-left: 0.1rem;
+  padding-bottom: 0.36rem;
+  border-bottom: 30px solid gainsboro;
+  font-size: 0.28rem;
+  text-indent: 2em; }
+
+.fw {
+  width: 100%;
+  height: 1.3rem; }
+  .fw .fw-a {
+    width: 100%;
+    height: 1rem;
+    font-size: 0; }
+    .fw .fw-a .a-fw .icon-hot-line {
+      font-size: 0.32rem;
+      float: left;
+      color: #39c893;
+      margin-right: 0.1rem;
+      margin-left: 1.9rem;
+      margin-top: 0.3rem; }
+    .fw .fw-a .a-fw p {
+      width: 3.5rem;
+      height: 1rem;
+      overflow: hidden;
+      font-size: 0.28rem;
+      line-height: 1rem;
+      color: #333;
+      float: left; }
+  .fw .fw-b {
+    width: 100%;
+    height: 0.3rem;
+    list-style: none; }
+    .fw .fw-b .fw-li {
+      width: 25%;
+      height: 0.3rem;
+      font-size: 0.28rem;
+      float: left;
+      text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0;
+  position: relative; }
+  .footer .ter-a {
+    width: 100%;
+    height: 1.06rem; }
+    .footer .ter-a .ter-p {
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 1.06rem; }
+  .footer .botton {
+    width: 100%;
+    height: 1.06rem;
+    background: rgba(0, 0, 0, 0.8) url(../img/bottom.png) no-repeat 1rem 0.15rem;
+    background-size: 4rem .8rem;
+    position: relative;
+    top: -1rem; }
+    .footer .botton .mf {
+      width: 1.75rem;
+      height: .5rem;
+      background: #feb605;
+      font-size: .24rem;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      margin: .3rem 5.5rem; }
+    .footer .botton .xx {
+      width: .35rem;
+      height: .35rem;
+      position: absolute;
+      top: 0;
+      background: #60d4a8;
+      font-size: .24rem;
+      text-align: center;
+      line-height: .35rem;
+      color: white;
+      border-bottom-right-radius: 90%; }
+
+/*# sourceMappingURL=yemian.css.map */
